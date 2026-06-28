@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+#test employee data
+data/
+
+#vscode config
+.vscode/
