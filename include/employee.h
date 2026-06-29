@@ -1,7 +1,7 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
-#define MAX_EMPLOYEES 100
+#define MAX_EMPLOYEES 200
 #define MAX_NAME_LEN 32
 #define MAX_ID_LEN 32
 #define MAX_PHONE_LEN 32
