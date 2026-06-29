@@ -42,5 +42,4 @@ void save_attendance(Attendancelist *list);
 void load_attendance(Attendancelist *list);
 void free_attendance(Attendancelist *list);
 
-
 #endif // ATTENDANCE_H
