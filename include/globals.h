@@ -1,6 +1,10 @@
 #ifndef GLOBALS_H
 #define GLOBALS_H
 
+#include "employee.h"
+#include "departments_positions.h"
+#include "attendance.h"
+#include "salary.h"
 
 #define ROLE_ADMIN 1
 #define ROLE_EMPLOYEE 2
@@ -11,11 +15,6 @@
 extern int g_user_role;
 extern char g_username[32];
 
-typedef struct Employeelist Employeelist;
-typedef struct Departmentlist Departmentlist;
-typedef struct Positionlist Positionlist;
-typedef struct Attendancelist Attendancelist;
-typedef struct Salarylist Salarylist;
 
 extern Employeelist employee_list;
 extern Departmentlist department_list;

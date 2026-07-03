@@ -7,7 +7,7 @@
 #define MAX_PHONE_LEN 32
 #define MAX_EMAIL_LEN 32
 #define MAX_PASSWORD_LEN 32
-#define EMPLOYEES_TXT "data/employees.txt"
+#define EMPLOYEES_FILE "data/employees.txt"
 
 typedef struct
 {

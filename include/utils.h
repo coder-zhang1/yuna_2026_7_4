@@ -16,7 +16,9 @@ int bs_attendance_by_index(Attendancelist*list,const const char *emp_id);
 
 int bs_salary_by_index(Salarylist*list,const const char *emp_id);
 
+void display_error_message(const char *str);
 
+void display_success_message(const char *str);
 
 // typedef enum
 // {
